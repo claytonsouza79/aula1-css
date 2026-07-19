@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard de Educação</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+</head>
+<body class="tema-educacao">
+  <header>
+    <h1>Dashboard de Educação</h1>
+    <p>Indicadores acadêmicos e desempenho das turmas ativas no semestre.</p>
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="#resumo">Indicadores</a></li>
+        <li><a href="#turmas">Turmas</a></li>
+        <li><a href="index.html">Menu</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="resumo" aria-labelledby="resumo-titulo">
+      <h2 id="resumo-titulo">Indicadores gerais</h2>
+      <dl>
+        <dt>Alunos matriculados</dt><dd>312</dd>
+        <dt>Turmas ativas</dt><dd>8</dd>
+        <dt>Taxa de aprovação</dt><dd>91%</dd>
+        <dt>Frequência média</dt><dd>94%</dd>
+      </dl>
+    </section>
+
+    <section id="turmas" aria-labelledby="turmas-titulo">
+      <h2 id="turmas-titulo">Turmas</h2>
+      <article>
+        <h3>Turma A — Manhã</h3>
+        <table>
+          <caption>Desempenho dos alunos</caption>
+          <thead><tr><th scope="col">Aluno</th><th scope="col">Nota</th><th scope="col">Frequência</th></tr></thead>
+          <tbody>
+            <tr><td>Ana Ribeiro</td><td>8,7</td><td>96%</td></tr>
+            <tr><td>Pedro Nogueira</td><td>7,4</td><td>89%</td></tr>
+          </tbody>
+        </table>
+      </article>
+      <article>
+        <h3>Turma B — Tarde</h3>
+        <table>
+          <caption>Desempenho dos alunos</caption>
+          <thead><tr><th scope="col">Aluno</th><th scope="col">Nota</th><th scope="col">Frequência</th></tr></thead>
+          <tbody>
+            <tr><td>Larissa Farias</td><td>9,1</td><td>98%</td></tr>
+            <tr><td>Diego Martins</td><td>6,8</td><td>85%</td></tr>
+          </tbody>
+        </table>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p><a href="index.html">← Voltar ao menu principal</a></p>
+  </footer>
+</body>
+</html>

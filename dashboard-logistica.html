@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard de Logística</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+</head>
+<body class="tema-logistica">
+  <header>
+    <h1>Dashboard de Logística</h1>
+    <p>Situação das entregas em andamento e seus destinos.</p>
+    <nav aria-label="breadcrumb">
+      <ol>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="#entregas">Logística</a></li>
+        <li><a href="#">Dashboard</a></li>
+      </ol>
+    </nav>
+  </header>
+  <main>
+    <section id="entregas" aria-labelledby="entregas-titulo">
+      <h2 id="entregas-titulo">Entregas em andamento</h2>
+      <table>
+        <caption>Pedidos em rota</caption>
+        <thead>
+          <tr>
+            <th scope="col">Pedido</th><th scope="col">Transportadora</th>
+            <th scope="col">Status</th><th scope="col">Destino</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>#7710</td><td>Rota Expressa</td><td>Em trânsito</td><td><address>Rua das Acácias, 120 — Curitiba, PR</address></td></tr>
+          <tr><td>#7711</td><td>LogTrans</td><td>Saiu para entrega</td><td><address>Av. Paulista, 900 — São Paulo, SP</address></td></tr>
+          <tr><td>#7712</td><td>Rota Expressa</td><td>Entregue</td><td><address>Rua do Comércio, 45 — Salvador, BA</address></td></tr>
+        </tbody>
+        <tfoot><tr><td colspan="3">Total de pedidos em rota</td><td>3</td></tr></tfoot>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <p><a href="index.html">← Voltar ao menu principal</a></p>
+  </footer>
+</body>
+</html>

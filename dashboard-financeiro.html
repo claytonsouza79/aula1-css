@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Financeiro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+</head>
+<body class="tema-financeiro">
+  <header>
+    <h1>Dashboard Financeiro</h1>
+    <p>Panorama de receitas, despesas e resultado do mês corrente.</p>
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="#resumo">Resumo</a></li>
+        <li><a href="#detalhamento">Detalhamento</a></li>
+        <li><a href="index.html">Menu</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="resumo" aria-labelledby="resumo-titulo">
+      <h2 id="resumo-titulo">Resumo financeiro</h2>
+      <details open><summary>Receita total</summary><p>R$ 342.900 arrecadados no mês, alta de 6% sobre o mês anterior.</p></details>
+      <details open><summary>Despesas totais</summary><p>R$ 198.400 em despesas fixas e variáveis combinadas.</p></details>
+      <details><summary>Lucro líquido</summary><p>R$ 144.500 de resultado líquido após impostos.</p></details>
+      <details><summary>Fluxo de caixa</summary><p>Saldo positivo de R$ 52.300 projetado para o próximo mês.</p></details>
+    </section>
+
+    <section id="detalhamento" aria-labelledby="detalhamento-titulo">
+      <h2 id="detalhamento-titulo">Detalhamento por categoria</h2>
+      <article>
+        <h3>Despesas do mês</h3>
+        <table>
+          <caption>Despesas por categoria</caption>
+          <thead><tr><th scope="col">Categoria</th><th scope="col">Mês</th><th scope="col">Valor</th></tr></thead>
+          <tbody>
+            <tr><td>Folha de pagamento</td><td>Julho</td><td>R$ 112.000</td></tr>
+            <tr><td>Fornecedores</td><td>Julho</td><td>R$ 86.400</td></tr>
+          </tbody>
+          <tfoot><tr><td colspan="2">Total</td><td>R$ 198.400</td></tr></tfoot>
+        </table>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p><a href="index.html">← Voltar ao menu principal</a></p>
+  </footer>
+</body>
+</html>

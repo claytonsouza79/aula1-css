@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard de Vendas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+</head>
+<body class="tema-vendas">
+  <header>
+    <h1>Dashboard de Vendas</h1>
+    <p>Acompanhamento de faturamento, pedidos e desempenho comercial do mês.</p>
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="#resumo">Resumo</a></li>
+        <li><a href="#graficos">Gráficos</a></li>
+        <li><a href="#pedidos">Pedidos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="resumo" aria-labelledby="resumo-titulo">
+      <h2 id="resumo-titulo">Resumo do mês</h2>
+      <article><h3>Faturamento total</h3><p>R$ 128.450</p></article>
+      <article><h3>Pedidos realizados</h3><p>342</p></article>
+      <article><h3>Ticket médio</h3><p>R$ 375,00</p></article>
+      <article><h3>Taxa de conversão</h3><p>4,8%</p></article>
+    </section>
+
+    <section id="graficos" aria-labelledby="graficos-titulo">
+      <h2 id="graficos-titulo">Gráficos</h2>
+      <figure><figcaption>Faturamento por mês</figcaption><p>Comparativo dos últimos 6 meses, com pico em junho.</p></figure>
+      <figure><figcaption>Vendas por canal</figcaption><p>Distribuição entre loja física, site e marketplace.</p></figure>
+      <figure><figcaption>Top 5 produtos</figcaption><p>Ranking dos produtos mais vendidos no período.</p></figure>
+    </section>
+
+    <section id="pedidos" aria-labelledby="pedidos-titulo">
+      <h2 id="pedidos-titulo">Últimos pedidos</h2>
+      <table>
+        <caption>Pedidos recentes</caption>
+        <thead>
+          <tr>
+            <th scope="col">Pedido</th><th scope="col">Cliente</th><th scope="col">Data</th>
+            <th scope="col">Status</th><th scope="col">Valor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>#4821</td><td>Marina Souza</td><td>15/07/2026</td><td>Entregue</td><td>R$ 289,90</td></tr>
+          <tr><td>#4822</td><td>Carlos Andrade</td><td>16/07/2026</td><td>Em trânsito</td><td>R$ 512,00</td></tr>
+          <tr><td>#4823</td><td>Beatriz Lima</td><td>17/07/2026</td><td>Processando</td><td>R$ 98,50</td></tr>
+          <tr><td>#4824</td><td>João Pereira</td><td>18/07/2026</td><td>Entregue</td><td>R$ 764,30</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <p><a href="index.html">← Voltar ao menu principal</a></p>
+  </footer>
+</body>
+</html>
